@@ -10,7 +10,7 @@ const Homepage = () => {
 
   return (
     <div className="cafe-homepage">
-      <h1>Welcome to the Webcafe</h1>
+      <h1>Welcome to Webcafe AI</h1>
       <p>Your go-to solution for AI-driven web applications</p>
       <div
         className="blue-button"
