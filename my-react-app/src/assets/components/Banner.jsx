@@ -4,7 +4,8 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="banner">
-      <h1>Welcome to Webcafe AI</h1>
+      <div>Welcome to Webcafe AI</div>
+      <div>Curently looking to secure funding, please consider supporting us.</div>
       <img src="/cup192.png" alt="Webcafe" className="banner-logo" />
     </div>
   );
