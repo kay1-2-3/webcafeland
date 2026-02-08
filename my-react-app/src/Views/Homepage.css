@@ -6,7 +6,7 @@
   flex-direction: column;
   overflow: hidden;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background-color: #1a1a1a;
+  background-color: #252525;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -21,7 +21,7 @@
   padding: 16px 24px 20px;
   border-bottom: 1px solid transparent;
   flex-shrink: 0;
-  background-color: #1a1a1a;
+  background-color: #252525;
 }
 
 .cafe-brand {
@@ -107,11 +107,11 @@
   border-right: 1px solid transparent;
   position: fixed;
   left: 0;
-  top: 72px;
+  top: 200px;
   bottom: 0;
-  height: calc(100vh - 72px);
+  height: calc(100vh - 200px);
   overflow: visible;
-  background-color: #1a1a1a;
+  background-color: #252525;
   z-index: 1;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .cafe-section-newsletter {
-  padding-top: 300px;
+  padding-top: 1200px;
 }
 
 .cafe-newsletter-box {

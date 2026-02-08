@@ -61,7 +61,6 @@ const Homepage = () => {
     <div className="cafe-homepage">
       <header className="cafe-header">
         <div className="cafe-brand">
-          <img src="/cup192.png" alt="Webcafe" className="cafe-logo" />
           <span className="cafe-tagline">{'{Automate '}<strong>everything</strong>{'}'}</span>
         </div>
         <div className="cafe-header-center">
