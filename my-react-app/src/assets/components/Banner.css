@@ -16,3 +16,7 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+.banner-title {
+  font-weight: bold;
+}
