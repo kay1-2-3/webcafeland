@@ -101,6 +101,9 @@ const Homepage = () => {
             <p>
               Explore templates, connect your favorite tools, and get started in minutes—no heavy setup required.
             </p>
+            <p>
+              <a href="https://webcafelanding-a9b98.web.app/" target="_blank" rel="noopener noreferrer">Visit our website</a> 
+            </p>
           </section>
 
           <section id="newsletter" className="cafe-section cafe-section-newsletter">
