@@ -3,7 +3,17 @@ import "./Homepage.css";
 
 const SECTIONS = [
   { id: "intro", label: "Welcome" },
+  { id: "create", label: "Create anything" },
   { id: "newsletter", label: "Sign up for the AI Newsletter" },
+];
+
+const CREATE_EXAMPLES = [
+  { title: "Web apps & dashboards", desc: "Full-stack apps, admin panels, and data visualizations." },
+  { title: "Automations & workflows", desc: "Scripts, bots, and pipelines that run on a schedule or trigger." },
+  { title: "APIs & integrations", desc: "Connect services, transform data, and build custom endpoints." },
+  { title: "Content & copy", desc: "Blogs, docs, marketing copy, and structured content at scale." },
+  { title: "Prototypes & MVPs", desc: "Landing pages, demos, and proof-of-concept in minutes." },
+  { title: "Anything else", desc: "If you can describe it, you can build it with Webcafe AI." },
 ];
 
 const Homepage = () => {
@@ -104,6 +114,21 @@ const Homepage = () => {
             <p>
               <a href="https://webcafelanding-a9b98.web.app/" target="_blank" rel="noopener noreferrer">Visit our website</a> 
             </p>
+          </section>
+
+          <section id="create" className="cafe-section cafe-section-create">
+            <h2>Create anything</h2>
+            <p>
+              Webcafe AI isn’t limited to one kind of project. Use it to build apps, automate work, generate content, or explore new ideas—no matter the domain or stack.
+            </p>
+            <div className="cafe-create-grid" aria-label="Example use cases">
+              {CREATE_EXAMPLES.map(({ title, desc }) => (
+                <div key={title} className="cafe-create-card">
+                  <h3 className="cafe-create-card-title">{title}</h3>
+                  <p className="cafe-create-card-desc">{desc}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           <section id="newsletter" className="cafe-section cafe-section-newsletter">
